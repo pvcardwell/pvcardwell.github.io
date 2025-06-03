@@ -15,88 +15,86 @@
                 padding: 35px;
                 height: 200px;
                 width: 1100px;
-                position: relative; right: 55px; bottom: 70px;
-                          }
-            
+                position: relative;
+                right: 55px;
+                bottom: 70px;
+            }
+
             #h1-hacker {
                 font-size: 45px;
                 width: 700px;
-                position: fixed; bottom: 650px; left: 450px;
-                
+                position: fixed;
+                bottom: 650px;
+                left: 450px;
             }
-            
+
             #p-hacker {
                 font-size: 23px;
                 width: 1100px;
-                position: relative; bottom: 15px;
+                position: relative;
+                bottom: 15px;
             }
-            
+
             #p-password {
                 font-size: 40px;
-                position: relative; left: 380px;
+                position: relative;
+                left: 380px;
             }
-            
+
             #password-box {
                 border: 2px solid #00ff00;
                 padding: 35px;
                 height: 50px;
                 width: 800px;
-                position: relative; left: 97px;
+                position: relative;
+                left: 97px;
             }
-            
-            #myInput {
-                width: 300px;
-                height: 50px;
-                font-size: 24px;
-                text-align: center;
-                position: relative; left: 250px;
+
+            input::placeholder {
+                color: whitesmoke;
                 background-color: red;
-                font-style: italic;
-                         }
-            
-            input::placeholder{color: aliceblue;
-}
+                font-size: 30px;
+                font-family: monospace;
+                font: bolder;
+            }
+
+            #placeholder2 {
+                background-color: red;
+                width: 165px;
+                height: 50px;
+                position: relative;
+                left: 310px;
+                border: 2px solid whitesmoke;
+                font-display: block black;
+            }
         </style>
         <meta charset="UTF-8" />
-        <title>Title</title>
+        <title>Hacker Code Screen</title>
     </head>
     <body>
-    
-    <div id="hacker-container">
-  <h1 id="h1-hacker">Initiating Cyber Attack...</h1>
-  <div id="console">
-      <p id="p-hacker">
-    "Scanning Network...",
-    "Connecting to Target...",
-    "Accessing Mainframe...",
-    "Decrypting Passwords...",
-    "Downloading Classified Files...",
-    "Initiating root access sequence...", 
-          <span style="color:yellow;font-weight:bold">HELP!</span>
-         "Bypassing firewall protocols...",
-          "Decrypting the core matrix...",
-          "Overriding system safeguards...",
-          <span style="color:yellow;font-weight:bold">S.O.S.</span>
-          "Establishing a secure connection...",
-          "Injecting payload into the network...",
-          "Gaining unauthorized access...",
-          "Diverting data streams...",
-          "Exploiting the vulnerability...",
-          "Compromising the server...",
-    "Mission Accomplished!"
-      <span style="color:red;font-weight:bold">SAVE YOURSELF.</span>
-      </p>
-      </div>
-        
-        <p id="p-password">ENTER PASSWORD:</p>
-                      <div id="password-box">
-                        
-                    <input type="text" id="myInput" name="myInput" placeholder="ENTER HERE">
-                          <a href="../assignment1/mnt-rainier.jpg"></a>
-                          
-                          
-                          
+        <div id="hacker-container">
+            <h1 id="h1-hacker">Initiating Cyber Attack...</h1>
+            <div id="console">
+                <p id="p-hacker">
+                    "Scanning Network...", "Connecting to Target...", "Accessing Mainframe...", "Decrypting
+                    Passwords...", "Downloading Classified Files...", "Initiating root access sequence...",
+                    <span style="color: yellow; font-weight: bold">HELP!</span>
+                    "Bypassing firewall protocols...", "Decrypting the core matrix...", "Overriding system
+                    safeguards...",
+                    <span style="color: yellow; font-weight: bold;">S.O.S.</span>
+                    "Establishing a secure connection...", "Injecting payload into the network...", "Gaining
+                    unauthorized access...", "Diverting data streams...", "Exploiting the vulnerability...",
+                    "Compromising the server...", "Mission Accomplished!"
+                    <span style="color: red; font-weight: bold">SAVE YOURSELF.</span>
+                </p>
+            </div>
+
+            <p id="p-password">ENTER PASSWORD:</p>
+            <div id="password-box">
+                <form action="../assignment2/lavalamp-color.gif">
+                    <input id="placeholder2" type="text" name="myInput" placeholder="ENTER HERE" />
+                </form>
+            </div>
         </div>
-</div>
     </body>
 </html>
