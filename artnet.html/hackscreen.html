@@ -5,6 +5,7 @@
         <style>
             body, html {
                 margin: 0;
+                width: 100%
             }
             
             #hacker-container {
@@ -12,7 +13,7 @@
                 color: #00ff00;
                 font-family: monospace;
                 padding: 200px;
-                height: 1200px;
+                height: 1100px;
                 width: 100%;
                 overflow:scroll;
             }
@@ -92,6 +93,12 @@
                 top: 549px;
                 z-index: 20px;
             }
+            
+            @media screen and (max-width: 800px) {
+            #hacker-container {
+            width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+}
             
         </style>
         <meta charset="UTF-8" />
