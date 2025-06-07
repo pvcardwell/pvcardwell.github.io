@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />     
+        <style>
+            
+             body, html {
+                margin: 0;
+                padding: 0;
+            }
+            
+            body, html {
+                height: 100%;
+            }
+            
+                        
+            .background {
+                background-image: url(eye-hole.png);
+                opacity:calc(55%);
+                height: 100%;
+                background-position: center;
+                background-repeat:
+                background-size: cover;
+                filter:grayscale(90%);
+            }
+            
+            .abspos {
+                position: absolute;
+            }
+            
+            #woman-head {
+                left:  940px;
+                top: 250px;
+            }
+            
+            #bottle-head {
+                top: 400px;
+            }
+            
+            #eyeball {
+                left: 1050px;
+                bottom: 450px;
+                align-content: center;
+            }
+            
+            #human-blocks {
+                bottom: 400px;
+                
+            }
+            
+            #no-eyes {
+                bottom: 0px;
+                left: 325px;
+            }
+            
+            #maze-head {
+                filter: grayscale(60%);
+                bottom: 300px;
+                left: 250px;
+            }
+            
+            #smiling-red {
+                filter: grayscale(40%);
+                bottom: 300px;
+                left: 850px;
+            }
+            
+            #red-eyes {
+                bottom: 290px;
+                left: 548px;
+                z-index: 20px;
+            }
+            
+            #exit-sign {
+                bottom: 120px;
+                left: 517px;
+            }
+            
+            #h1-toomuch {
+                color: red;
+                background-color:rgba(0,0,0,.35);
+                position: absolute;
+                font-family: monospace;
+                font-size: 45px;
+                bottom:  600px;
+                left: 450px;
+            }
+        </style>    
+        <meta charset="UTF-8" />
+        <title>Collage 3</title>
+    </head>
+    <body>
+        <div class="background"></div>
+            <div>
+            <img class="abspos" id="woman-head" src="woman-head.png" width="500" height="500" alt="Woman's face with skeletal showing">
+            <img class="abspos" id="bottle-head" src="bottle-head.png" width="300" height="300" alt="Human head in a glass bottle">
+            <img class="abspos" id="eyeball" src="eyeball.png" width="300" height="300" alt="Human eyeball">
+            <img class="abspos" id="human-blocks" src="human-blocks.png" width="300" height="300" alt="Human parts displayed on blocks"> 
+            <img class="abspos" id="no-eyes" src="noeyes-man.png" width="700" height="700" alt="Drawing of a man with no eyes">  
+            <img class="abspos" id="smiling-red" src="smiling-red.png" width="300" height="300" alt="Drawing of red lips smiling">  
+            <img class="abspos" id="red-eyes" src="red-eyes.png" width="300" height="300" alt="Two red eyes">   
+            <img class="abspos" id="maze-head" src="maze-head.png" width="300" height="300" alt="Head with its top half resembling a maze">    
+            <a href="nosignal.html"><img class="abspos" id="exit-sign" src="exit-sign.png" width="350" height="350" alt="An exit sign">
+                </a>    
+                
+                <h1 id="h1-toomuch" style="text-align: center">
+                    You've seen too much.<br>Leave now.<br>
+                </h1>
+            
+        </div>
+    </body>    
+</html>

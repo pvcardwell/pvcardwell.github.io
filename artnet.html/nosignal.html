@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />     
+        <style>
+            
+             body, html {
+                margin: 0;
+                padding: 0;
+            }
+            
+            body, html {
+                height: 100%;
+            }
+            
+                        
+            .background {
+                background-image: url(human-GIF.gif);
+                height: 100%;
+                background-position: center;
+                background-repeat:
+                background-size: cover;
+                filter:grayscale(90%);
+            }
+            
+            .abspos {
+                position: absolute;
+            }
+            
+            #no-signal {
+                z-index: 20px;
+                bottom: 50px;
+                right: 420px;
+            }
+        </style>    
+        <meta charset="UTF-8" />
+        <title>Title</title>
+    </head>
+    <body>
+        <div class="background"></div>
+            <div>
+                <img class="abspos" id="no-signal" src="no-signal.jpg" width="600" height="600" alt="Image displaying 'No Signal'">
+        
+        </div>
+    
+    </body>
+</html>
