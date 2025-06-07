@@ -10,17 +10,24 @@
                 width: 100%
             }
             
-            
-            
             #hacker-container {
                 background-color: #111;
                 color: #00ff00;
                 font-family: monospace;
                 padding: 200px;
                 height: 1200px;
-                position: absolute;
-                margin: 0 auto;
+                position: fixed;
                 width: 100%;
+                overflow:scroll;
+            }
+            
+              .scrollbar::-webkit-scrollbar {
+                display: none;
+            }
+            
+            .example {
+                -ms-overflow-style: none;  /* IE and Edge */
+                scrollbar-width: none;  /* Firefox */
             }
             
             #console {
@@ -89,11 +96,14 @@
                 top: 549px;
                 z-index: 20px;
             }
+            
         </style>
         <meta charset="UTF-8" />
         <title>Hack 101</title>
     </head>
     <body>
+        <div class="example"></div>
+        <div class="scrollbar::-webkit-scrollbar"></div>
         <div id="hacker-container">
             <h1 id="h1-hacker">Initiating Cyber Attack...</h1>
             <div id="console">
