@@ -6,8 +6,6 @@
         <style>
             body, html {
                 margin: 0;
-                padding: 0;
-                width: 100%
             }
             
             #hacker-container {
@@ -16,12 +14,11 @@
                 font-family: monospace;
                 padding: 200px;
                 height: 1200px;
-                position: fixed;
                 width: 100%;
                 overflow:scroll;
             }
             
-              .scrollbar::-webkit-scrollbar {
+            .scrollbar::-webkit-scrollbar {
                 display: none;
             }
             
@@ -43,9 +40,9 @@
             #h1-hacker {
                 font-size: 45px;
                 width: 700px;
-                position: absolute;
-                bottom: 1500px;
-                left: 450px;
+                position: relative;
+                bottom: 150px;
+                left: 250px;
             }
 
             #p-hacker {
@@ -104,22 +101,22 @@
     <body>
         <div class="example"></div>
         <div class="scrollbar::-webkit-scrollbar"></div>
-        <div id="hacker-container">
-            <h1 id="h1-hacker">Initiating Cyber Attack...</h1>
-            <div id="console">
-                <p id="p-hacker">
-                    "Scanning Network...", "Connecting to Target...", "Accessing Mainframe...", "Decrypting
-                    Passwords...", "Downloading Classified Files...", "Initiating root access sequence...",
-                    <span style="color: yellow; font-weight: bold">HELP!</span>
-                    "Bypassing firewall protocols...", "Decrypting the core matrix...", "Overriding system
-                    safeguards...",
-                    <span style="color: yellow; font-weight: bold;">S.O.S.</span>
-                    "Establishing a secure connection...", "Injecting payload into the network...", "Gaining
-                    unauthorized access...", "Diverting data streams...", "Exploiting the vulnerability...",
-                    "Compromising the server...", "Mission Accomplished!"
-                    <span style="color: red; font-weight: bold">SAVE YOURSELF.</span>
-                </p>
-            </div>
+            <div id="hacker-container">
+                <h1 id="h1-hacker">Initiating Cyber Attack...</h1>
+                    <div id="console">
+                        <p id="p-hacker">
+                            "Scanning Network...", "Connecting to Target...", "Accessing Mainframe...", "Decrypting
+                            Passwords...", "Downloading Classified Files...", "Initiating root access sequence...",
+                            <span style="color: yellow; font-weight: bold">HELP!</span>
+                            "Bypassing firewall protocols...", "Decrypting the core matrix...", "Overriding system
+                            safeguards...",
+                            <span style="color: yellow; font-weight: bold;">S.O.S.</span>
+                            "Establishing a secure connection...", "Injecting payload into the network...", "Gaining
+                            unauthorized access...", "Diverting data streams...", "Exploiting the vulnerability...",
+                            "Compromising the server...", "Mission Accomplished!"
+                            <span style="color: red; font-weight: bold">SAVE YOURSELF.</span>
+                        </p>
+                    </div>
 
             <p id="p-password">ENTER PASSWORD:</p>
             <p id="attempts"><strong>ATTEMPTS AVAIALBLE: 3</strong></p>
