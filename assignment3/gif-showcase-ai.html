@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta charset="UTF-8">
+        <title>GIF Showcase Page</title>
+        <style>
+            body {
+                margin: auto;
+                padding: 0;
+                width: 100%;
+                background-color: cornflowerblue;
+                text-align: center;
+            }
+
+            .container {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-items: center;
+                gap: 20px;
+                max-width: 95%;
+                margin: auto;
+            }
+
+            .box {
+                border: 8px solid white;
+                background-color: rgba(255, 255, 255, 0.1);
+                padding: 20px;
+                width: 350px;
+                height: auto;
+                margin: 20px auto;
+                box-sizing: border-box;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+
+            img {
+                max-width: 100%;
+                height: auto;
+                display: block;
+                margin: auto;
+            }
+
+            h1 {
+                font-size: x-large;
+                color: black;
+                font-family: monospace;
+            }
+
+            p {
+                font-size: 20px;
+                color: black;
+                font-family: monospace;
+                width: 90%;
+                text-align: left;
+                margin: auto;
+            }
+
+            .index-return {
+                margin-top: 30px;
+                font-size: 1.2rem;
+            }
+
+            @media (max-width: 768px) {
+                .container {
+                    flex-direction: column;
+                    align-items: center;
+                }
+
+                .box {
+                    width: 100%;
+                    max-width: 350px;
+                }
+
+                h1, p {
+                    text-align: center;
+                    max-width: 100%;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="box lavalmap-box">
+                <img src="lavalamp-color.gif" width="350px" height="320px" alt="Multicolored Lava Lamp GIF">
+                <h1 class="h1-lavalamp">Lava Lamp Animation</h1>
+                <p class="p-lavalamp">For this Lava Lamp animation, I took a bold approach by capturing a photo, editing the colors, and using Photoshop's morphing techniques to bring it to life.</p>
+            </div>
+
+            <div class="box vinyl-box">
+                <img class="vinyl-image" src="lavender-record.gif" width="380px" height="350px" alt="Spinning Vinyl GIF">
+                <h1 class="h1-vinyl">Spinning Vinyl Animation</h1>
+                <p class="p-vinyl">I wanted to create an animated vinyl for a website concept. Using Photoshop, I designed a 360-degree spinning animation.</p>
+            </div>
+
+            <div class="box window-box">
+                <img class="window-image" src="stainedglass.gif" width="370px" height="370px" alt="Alternating Colored Window GIF">
+                <h1 class="h1-window">Stained Glass Animation</h1>
+                <p class="p-window">This animation effect plays with color-changing stained glass transitions, carefully edited in Photoshop to create smooth color shifts.</p>
+            </div>
+
+            <div class="box rocket-box">
+                <img class="rocket-image" src="rocket.gif" width="290px" height="430px" alt="Rocket Taking Off GIF">
+                <h1 class="h1-rocket">Launching Rocket</h1>
+                <p class="p-rocket">Inspired by The Kennedy Space Center, I used Photoshop to animate real rocket launch images into an exciting motion effect.</p>
+            </div>
+        </div>
+
+        <p class="index-return">
+            <a href="../index.html">Return to Home Page</a>
+        </p>
+    </body>
+</html>
+
+
+
+
