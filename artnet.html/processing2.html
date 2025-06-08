@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>processing..</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body, html {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+    }
+
+    .background {
+      background-image: url('surveillance.jpg');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 100vh;
+      position: relative;
+    }
+
+    .abspos {
+      position: absolute;
+    }
+
+    #mugshot {
+      left: 500px;
+      top: 100px;
+      width: 400px;
+      height: 400px;
+    }
+
+    #human-wrap {
+      bottom: 20px;
+      right: 1260px;
+      z-index: 40;
+      width: 200px;
+      height: 200px;
+    }
+
+    #tv-man {
+      left: 1140px;
+      top: 432px;
+      width: 300px;
+      height: 300px;
+    }
+
+    #error-repeat {
+      left: 20px;
+      bottom: 210px;
+      z-index: -7;
+      width: 600px;
+      height: 600px;
+    }
+
+    #digital-head {
+      left: 0;
+      top: 0;
+      z-index: 10;
+      width: 600px;
+      height: 600px;
+      filter: hue-rotate(337deg);
+    }
+
+    #green-brain {
+      bottom: 200px;
+      left: 800px;
+      width: 620px;
+      height: 620px;
+      filter: hue-rotate(342deg);
+    }
+
+    #h1-here {
+      color: red;
+      position: absolute;
+      z-index: 20;
+      font-family: monospace;
+      font-size: 50px;
+      right: 440px;
+      top: 489px;
+    }
+
+    #h1-this {
+      color: black;
+      position: absolute;
+      left: 1025px;
+      top: 180px;
+      font-size: 35px;
+      background-color: aliceblue;
+    }
+
+    #h1-who {
+      color: aliceblue;
+      position: absolute;
+      left: 215px;
+      top: 180px;
+      font-size: 35px;
+      background-color: black;
+    }
+
+    /* Mobile Styles */
+    @media (max-width: 768px) {
+      html, body {
+        overflow-x: hidden;
+      }
+
+      .background {
+        height: auto;
+        min-height: 100vh;
+        padding: 10px;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .abspos {
+        position: relative !important;
+        left: auto !important;
+        top: auto !important;
+        right: auto !important;
+        bottom: auto !important;
+      }
+
+      #mugshot, #human-wrap, #tv-man, #error-repeat, #digital-head, #green-brain {
+        width: 90vw;
+        max-width: 100%;
+        height: auto;
+        margin: 10px 0;
+        display: block;
+      }
+
+      #h1-here, #h1-this, #h1-who {
+        font-size: 6vw;
+        text-align: center;
+        margin: 20px 0;
+        width: 90%;
+        position: relative !important;
+        left: auto !important;
+        top: auto !important;
+        right: auto !important;
+        bottom: auto !important;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="background">
+    <img class="abspos" id="mugshot" src="mugshot.png" alt="Mugshot with facial recognition">
+    <img class="abspos" id="human-wrap" src="human-wrap.png" alt="Human head wrapped into slices">
+    <img class="abspos" id="tv-man" src="tv-man.png" alt="Man with a TV as a head">
+    <img class="abspos" id="error-repeat" src="error-repeat.png" alt="Error code repeating">
+    <a href="or-do-you.html">
+      <img class="abspos" id="digital-head" src="digital-head.png" alt="Green brain x-ray scan">
+    </a>
+    <a href="who-are-you.html">
+      <img class="abspos" id="green-brain" src="green-brain.png" alt="Green brain scan">
+    </a>
+    <h1 id="h1-here"><strong>Who let you in here?</strong></h1>
+    <h1 id="h1-this"><i><strong>What's this?</strong></i></h1>
+    <h1 id="h1-who"><i><strong>Who is this?</strong></i></h1>
+  </div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
