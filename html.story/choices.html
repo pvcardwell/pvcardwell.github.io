@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <style>
+            
+            @import url('https://fonts.googleapis.com/css2?family=Bungee+Hairline&family=Press+Start+2P&display=swap');
+            
+            .bungee-hairline-regular {
+                font-family: "Bungee Hairline", sans-serif;
+                font-weight: 400;
+                font-style: normal;
+            }
+            
+             #placeholder2 {
+                background-color: #a58c00;
+                width: 165px;
+                height: 50px;
+                position: relative;
+                left: 650px;
+                top: 100px; 
+                border: 2px solid whitesmoke;
+                font-display: block black;
+            }
+            
+            #specificInput{
+                background-color: darkgray;
+                font-size: 13px;
+                height: 22px;
+            }
+            
+            #button {
+                background-color: black;
+                color: azure;
+            }
+        
+            body {
+                background-color: slategrey;
+                margin: auto;
+            }
+            
+            div-1 {
+                border-image-width: auto;
+            }
+    
+            
+            #darkblue {
+                position: relative;
+                top: 150px;
+                left: 90px;
+            }
+            
+            #yellow {
+                position: relative;
+                top: 150px;
+                left: 64px;
+            }
+            
+            #purple {
+                position: relative;
+                top: 155px;
+                left: 37px;
+            }
+            
+            #teal {
+                position: relative;
+                top: 155px;
+                left: 10px;
+            }
+            
+            #red {
+                position: relative;
+                top: 155px;
+                right: 14px;
+            }
+            
+            #grey {
+                position: relative;
+                top: 152px;
+                right: 39px;
+            }
+            
+            #h2-detective {
+                font-family: Bungee Hairline;
+                position: relative;
+                bottom: 350px;
+                text-align: center;
+            }
+            
+            #h2-solve {
+                font-family: Bungee Hairline;
+                position: relative;
+                top: 100px;
+                text-align: center;
+            }
+        </style>
+        <meta charset="UTF-8" />
+        <title>Choices</title>
+    </head>
+    <body>
+    <div>
+            
+            <a href="news.html">
+                <img id="darkblue" src="images/darkblue.png" width="232" height="383" alt="Brick building with a dark blue door">
+            </a>
+            
+            <a href="clues.html"><img id="yellow" src="images/yellow-doorPS.png" width="232" height="383" alt="Brick building with a yellow door"></a>
+            
+            <a href="wasted.html"><img id="purple" src="images/purple-doorPS.png" width="232" height="383" alt="Brick building with a purple/pink door"></a>
+            
+            <a href="losing-it.html"><img id="teal" src="images/teal-doorPS.png" width="232" height="383" alt="Brick building with a teal door"></a>
+            
+            <a href="who-am-i.html"><img id="red" src="images/red-doorPS.png" width="232" height="383" alt="Brick building with a red door"></a>
+            
+            <a href="trusting.html"><img id="grey" src="images/grey-doorPS.png" width="232" height="383" alt="Brick building with a grey door"></a>
+        </div>
+        
+        <div>
+        
+            <h2 id="h2-detective"><b>Hello Detective, welcome to the neighborhood.<br>Please, come say hi to everyone...</b></h2>
+            
+            <h2 id="h2-solve">
+            <b>Ready to solve the case? Enter the correct information to continue..</b>
+            
+            </h2>
+        </div>
+        
+        <div>
+                    <form id="placeholder2" action="findme.html">
+                        <label for="specificInput"><b>CORRECT PHRASE:</b></label>
+                        <input type="text" id="specificInput" name="specificInput" required pattern="IM ALIVE">
+                        <button type="submit" id="button">Submit</button>
+                    </form>
+        </div>
+    </body>
+</html>
